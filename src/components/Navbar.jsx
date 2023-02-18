@@ -100,6 +100,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/levik-kh/"
             >
               Linkedin <FaLinkedin size={30} />
@@ -109,6 +110,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/Levik931"
             >
               Github <FaGithub size={30} />
@@ -126,6 +128,7 @@ export const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
+              rel="noreferrer"
               href="https://www.icloud.com/iclouddrive/040d1OKYe49zq_0AxgP60lJlg#Levik_Khachadoorian"
             >
               Resume <BsFillPersonLinesFill size={30} />

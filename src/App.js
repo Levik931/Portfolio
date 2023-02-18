@@ -1,4 +1,3 @@
-import { HiMoon } from "react-icons/hi";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Home } from "./components/Home";
