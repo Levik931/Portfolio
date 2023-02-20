@@ -7,12 +7,12 @@ export const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* container */}
-      <div className="'max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="'max-w-[1000px] mx-auto sm:ml-10 px-8 flex flex-col justify-center h-full">
         <p className="text-pink-600 font-bold">Hi, My name is</p>
-        <h1 className="text-6xl sm:text-5xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-6xl font-bold text-[#ccd6f6]">
           Levik Khachadoorian
         </h1>
-        <h2 className="text-5xl sm:text-4xl font-bold text-[#8892b0]">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#8892b0]">
           I'm a Computer Information Systems Student
         </h2>
         <p className="text-[#8892b0] py-10 max-w-[700px]">
