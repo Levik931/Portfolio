@@ -9,13 +9,13 @@ export const Home = () => {
       {/* container */}
       <div className="max-w-[1000px] mx-auto sm:ml-10 px-14 flex flex-col justify-center h-full">
         <p className="text-pink-600 font-bold">Hi, My name is</p>
-        <h1 className="text-4xl sm:text-6xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-6xl font-bold text-[white]">
           Levik Khachadoorian
         </h1>
-        <h2 className="text-2xl sm:text-3xl font-bold text-[#8892b0]">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#c9cdd9]">
           I'm a Computer Information Systems Student
         </h2>
-        <p className="text-[#8892b0] py-10 max-w-[700px]">
+        <p className="text-[#acb2c5] py-10 max-w-[700px]">
           Creating solutions to complex problems and empowering people to
           achieve their full potential through technology
         </p>
