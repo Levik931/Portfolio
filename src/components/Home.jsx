@@ -6,7 +6,10 @@ import { Fade } from "react-awesome-reveal";
 
 export const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#000000]">
+    <div
+      name="home"
+      className="w-full h-screen bg-gradient-to-b from-gray-900 to-gray-700"
+    >
       {/* container */}
       <div className="max-w-[1000px] mx-auto sm:ml-10 px-14 flex flex-col justify-center h-full">
         <Fade direction="down">

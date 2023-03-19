@@ -3,7 +3,10 @@ import random from "../assets/random.jpeg";
 
 export const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-white bg-[#4B4B4B]">
+    <div
+      name="work"
+      className="w-full md:h-screen text-white bg-gradient-to-r from-[#5D5E6B] to-[#354052]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full">
         <div className="pb-8 px-11 md:mt-40">
           <p className="text-4xl font-bold inline border-b-4 text-white border-pink-600 p">

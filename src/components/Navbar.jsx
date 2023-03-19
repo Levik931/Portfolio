@@ -9,7 +9,11 @@ export const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#4B4B4B] text-gray-300 z-10">
+    <div
+      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-red-900 to-blue-900
+
+    text-gray-300 z-10"
+    >
       <div>
         <Link to="home" smooth={true} duration={500}>
           <img
@@ -63,7 +67,7 @@ export const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#4B4B4B] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-[#5D5E6B] to-[#354052] flex flex-col justify-center items-center"
         }
       >
         <li className="py-3 text-3xl">

@@ -11,7 +11,10 @@ import { Fade } from "react-awesome-reveal";
 
 export const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen  bg-[#000000] text-white">
+    <div
+      name="skills"
+      className="w-full h-screen bg-gradient-to-b from-gray-900 to-gray-700 text-white"
+    >
       {/* container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="px-12">

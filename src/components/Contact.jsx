@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#000000] flex justify-center items-center p-7 md:p-20"
+      className="w-full h-screen bg-gradient-to-b from-gray-900 to-gray-700 flex justify-center items-center p-7 md:p-20"
     >
       <form
         method="POST"
