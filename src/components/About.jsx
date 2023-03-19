@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 export const About = () => {
   return (
@@ -15,12 +15,12 @@ export const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <Fade left>
+            <Fade direction="left">
               <p>Get to know me:</p>
             </Fade>
           </div>
           <div>
-            <Fade right>
+            <Fade>
               <p>
                 As a computer major, I am passionate about using technology to
                 solve complex problems and create user-friendly solutions. My
