@@ -13,10 +13,10 @@ export const Contact = () => {
         required
       >
         <div className="pb-8 px-11">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-white">
             Contact
           </p>
-          <p className="text-gray-300 py-4">Submit the form bellow.</p>
+          <p className="text-white py-4">Submit the form bellow.</p>
         </div>
         <input
           className="bg-[#ffffff] p-2"

@@ -12,7 +12,7 @@ export const Home = () => {
         <Fade direction="down">
           <p className="text-pink-600 font-bold">Hi, My name is</p>
         </Fade>
-        <Fade cascade>
+        <Fade>
           <h1 className="text-4xl sm:text-6xl font-bold text-[white]">
             Levik Khachadoorian
           </h1>
@@ -22,7 +22,7 @@ export const Home = () => {
             I'm a Computer Information Systems Student
           </h2>
         </Fade>
-        <Fade direction="up" cascade>
+        <Fade direction="up">
           <p className="text-[#acb2c5] py-10 max-w-[700px]">
             Creating solutions to complex problems and empowering people to
             achieve their full potential through technology

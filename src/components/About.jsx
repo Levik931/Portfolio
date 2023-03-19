@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 
 export const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#124559] text-gray-300">
+    <div name="about" className="w-full h-screen bg-[#4B4B4B] text-white">
       <div className="flex px-14 flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
