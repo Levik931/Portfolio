@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 export const About = () => {
   return (
@@ -14,18 +15,22 @@ export const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Get to know me:</p>
+            <Fade left>
+              <p>Get to know me:</p>
+            </Fade>
           </div>
           <div>
-            <p>
-              As a computer major, I am passionate about using technology to
-              solve complex problems and create user-friendly solutions. My
-              portfolio showcases a range of projects that demonstrate my
-              technical skills, creativity, and attention to detail. From
-              developing mobile applications to designing web and databases, I
-              am committed to utilizing my expertise to make a meaningful impact
-              in the world of technology.
-            </p>
+            <Fade right>
+              <p>
+                As a computer major, I am passionate about using technology to
+                solve complex problems and create user-friendly solutions. My
+                portfolio showcases a range of projects that demonstrate my
+                technical skills, creativity, and attention to detail. From
+                developing mobile applications to designing web and databases, I
+                am committed to utilizing my expertise to make a meaningful
+                impact in the world of technology.
+              </p>
+            </Fade>
           </div>
         </div>
       </div>
