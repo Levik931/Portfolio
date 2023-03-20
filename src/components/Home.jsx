@@ -13,16 +13,23 @@ export const Home = () => {
       {/* container */}
       <div className="max-w-[1000px] mx-auto sm:ml-10 px-14 flex flex-col justify-center h-full">
         <Fade direction="down">
-          <p className="text-pink-600 font-bold">Hi, My name is</p>
+          <p className="text-pink-500 font-bold">Hi, My name is</p>
         </Fade>
         <Fade>
-          <h1 className="text-4xl sm:text-6xl font-bold text-[white]">
-            Levik Khachadoorian
+          <h1 className="text-4xl sm:text-6xl font-bold text-white">
+            Levik{" "}
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
+              Khachadoorian
+            </span>
           </h1>
         </Fade>
         <Fade direction="right">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#c9cdd9]">
-            I'm a Computer Information Systems Student
+            I'm a{" "}
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
+              Computer
+            </span>{" "}
+            Information Systems Student
           </h2>
         </Fade>
         <Fade direction="up">

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import lev from "../assets/lev.png";
+import lev1 from "../assets/lev1.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -18,7 +18,7 @@ export const Navbar = () => {
         <Link to="home" smooth={true} duration={500}>
           <img
             className="mt-2 ml-2"
-            src={lev}
+            src={lev1}
             alt="Logo"
             style={{ width: "70px", cursor: "pointer" }}
           />
