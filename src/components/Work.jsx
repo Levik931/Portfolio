@@ -1,5 +1,6 @@
 import React from "react";
 import random from "../assets/random.jpeg";
+import cloud from "../assets/cloud.jpeg";
 
 export const Work = () => {
   return (
@@ -23,7 +24,7 @@ export const Work = () => {
             {/* Hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
-                React JS Quote Machine
+                Random Quote Machine
               </span>
 
               <div className="pt-8 text-center">
@@ -38,6 +39,34 @@ export const Work = () => {
                 <a
                   target="_blank"
                   href="https://github.com/Levik931/random-quote-machine"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${cloud})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider text-center">
+                Cloud Management
+              </span>
+
+              <div className="pt-8 text-center">
+                <a target="_blank" href="https://cloud-mgt.netlify.app">
+                  <button className="text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/Levik931/Cloud-management"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
