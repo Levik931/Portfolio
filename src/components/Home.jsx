@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-gradient-to-r from-gray-900 to-gray-600"
+      className="w-full h-screen bg-gradient-to-b from-[#111326] to-[#373b52f6]"
     >
       {/* container */}
       <div className="max-w-[1000px] mx-auto sm:ml-10 px-14 flex flex-col justify-center h-full">
