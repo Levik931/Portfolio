@@ -17,19 +17,16 @@ export const Home = () => {
         </Fade>
         <Fade>
           <h1 className="text-4xl sm:text-6xl font-bold text-white">
-            Levik{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
-              Khachadoorian
-            </span>
+            Levik Khachadoorian
           </h1>
         </Fade>
         <Fade direction="right">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#c9cdd9]">
             I'm a{" "}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
-              Computer
+              Computer Information Systems
             </span>{" "}
-            Information Systems Student
+            Student
           </h2>
         </Fade>
         <Fade direction="up">
@@ -39,7 +36,7 @@ export const Home = () => {
           </p>
         </Fade>
         <div>
-          <button className="text-white border-2 group px-5 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+          <button className="text-white border p-1 rounded-lg group px-5 my-2 flex items-center hover:bg-red-800 hover:border-">
             <Link
               onClick={Navbar.handleClick}
               to="work"
