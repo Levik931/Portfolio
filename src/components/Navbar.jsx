@@ -10,7 +10,7 @@ export const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div
-      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-red-900 to-blue-900
+      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-700
 
     text-gray-300 z-10"
     >
@@ -26,28 +26,28 @@ export const Navbar = () => {
       </div>
       {/* menu */}
 
-      <ul className="hidden md:flex">
-        <li>
+      <ul className="hidden md:flex ">
+        <li className="bg-clip-text font-bold hover:text-transparent hover:bg-amber-400">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="bg-clip-text font-bold hover:text-transparent hover:bg-amber-400">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="bg-clip-text font-bold hover:text-transparent hover:bg-amber-400">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="bg-clip-text font-bold hover:text-transparent hover:bg-amber-400">
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className="bg-clip-text font-bold hover:text-transparent hover:bg-amber-400">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
