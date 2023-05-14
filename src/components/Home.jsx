@@ -61,28 +61,28 @@ export const Home = () => {
         </div>
         <div className="pt-40 max-h-4 w-screen">
           <Marquee pauseOnHover speed={100} autoFill>
-            <div className="w-16 mx-14 mt-24">
+            <div className="w-16 mx-14 mt-18">
               <img src={html} alt="html" />
             </div>
-            <div className="w-16 mx-14 mt-20">
+            <div className="w-16 mx-14 mt-18">
               <img src={css} alt="css" />
             </div>
-            <div className="w-16 mx-14 mt-20">
+            <div className="w-16 mx-14 mt-18">
               <img src={javascript} alt="java" />
             </div>
-            <div className="w-16 mx-14 mt-20">
+            <div className="w-16 mx-14 mt-18">
               <img src={react} alt="react" />
             </div>
-            <div className="w-16 mx-14 mt-20">
+            <div className="w-16 mx-14 mt-18">
               <img src={node} alt="node" />
             </div>
-            <div className="w-16 mx-14 mt-20">
+            <div className="w-16 mx-14 mt-18">
               <img src={aws} alt="aws" />
             </div>
-            <div className="w-16 mx-14 mt-20">
+            <div className="w-16 mx-14 mt-18">
               <img src={github} alt="github" />
             </div>
-            <div className="w-16 mx-14 mt-20">
+            <div className="w-16 mx-14 mt-18">
               <img src={tailwind} alt="tailwind" />
             </div>
           </Marquee>
