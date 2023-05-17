@@ -14,7 +14,7 @@ export const Navbar = () => {
 
     text-gray-300 z-10"
     >
-      <div>
+      <div className="ml-6">
         <Link to="home" smooth={true} duration={500}>
           <img
             className="mt-2 ml-2"
