@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import lev1 from "../assets/New_png.png";
+import lev1 from "../assets/png_image1.PNG";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
