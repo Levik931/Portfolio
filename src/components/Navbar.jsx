@@ -14,13 +14,13 @@ export const Navbar = () => {
 
     text-gray-300 z-10"
     >
-      <div className="ml-6">
+      <div className="ml-4 mt-2">
         <Link to="home" smooth={true} duration={500}>
           <img
             className="mt-2 ml-2"
             src={lev1}
             alt="Logo"
-            style={{ width: "110px", cursor: "pointer" }}
+            style={{ width: "95px", cursor: "pointer" }}
           />
         </Link>
       </div>
@@ -57,7 +57,7 @@ export const Navbar = () => {
       {/* Hamburger */}
       <div
         onClick={handleClick}
-        className="md:hidden z-10"
+        className="md:hidden z-10 mr-6 mt-4"
         style={{ cursor: "pointer" }}
       >
         {!nav ? <FaBars /> : <FaTimes />}
