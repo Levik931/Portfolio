@@ -29,11 +29,11 @@ export const Home = () => {
           </Fade>
           <Fade direction="right">
             <h2 className="text-2xl sm:text-3xl font-bold text-amber-400">
-              I'm a Computer{" "}
+              I'm a{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
-                Information Systems
+                Full-Stack
               </span>{" "}
-              Student
+              Developer
             </h2>
           </Fade>
           <Fade direction="up">
