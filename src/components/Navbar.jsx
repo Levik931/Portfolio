@@ -133,7 +133,7 @@ export const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
               rel="noreferrer"
-              href="https://www.icloud.com/iclouddrive/0acO_QdHOGfnYrEU0qHAnW3Gg#Levik_Resume"
+              href="https://www.icloud.com/iclouddrive/0ccimpFYimh2I0NL-0RaPbyjw#levik_resume"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
