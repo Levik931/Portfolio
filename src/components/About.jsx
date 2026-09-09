@@ -31,10 +31,11 @@ export const About = () => {
           <div>
             <Fade>
               <p>
-                Full-Stack Software Engineer with 3+ years of experience designing and delivering scalable, cloud-native web applications. Skilled in React,
-                Node.js, MongoDB, Azure, AWS, and Kafka. Known for improving engineering efficiency through automation, clean architecture, and cross-team
-                collaboration. Fast learner and strong problem-solver who contributes to system design, mentors junior developers, and thrives in dynamic,
-                fast-paced environments.
+                Software Engineer with 4+ years building production systems for industrial automation, robotics, and cloud-connected warehouse operations.
+                Designed and delivered an end-to-end robotic inspection platform orchestrating Boston Dynamics Spot missions, PLC and dock signals, AI
+                verification, and warehouse workflows. Builds distributed backend services, stateful orchestration, APIs, and containerized Linux workloads,
+                with hands-on experience integrating and troubleshooting Spot camera and I2C sensor payloads at the hardware/software boundary. Strong
+                background in observability, production debugging, CI/CD, and cross-functional system integration.
               </p>
             </Fade>
           </div>
